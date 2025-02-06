@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-I'm dzu. A colleage student.
+- I'm dzu. A colleage student.
+- Now studying HTML, Python and C.
 <!--
 **dzuisk/dzuisk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
