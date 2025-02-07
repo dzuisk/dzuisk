@@ -1,0 +1,11 @@
+/* 这个文件放 CSS 代码 */
+p {
+    font-family: Sarasa Mono K SemiBold;
+    color:teal;
+    font-size: 50px;
+}
+div {
+    color: chocolate;
+    font-family: Sarasa Mono K SemiBold;
+    font-size: 50px;
+}

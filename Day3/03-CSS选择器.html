@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签选择器</title>
+    <style>
+        /* 标签选择器选中同名标签设置相同格式 同名标签无法差异化 */
+        p {
+            font-size: 50px;
+            color:tomato;
+            font-family: Sarasa Mono K SemiBold;
+        }
+        .red {            
+            color: red;            
+        }
+        .font-size-50px {
+            font-size: 50px;
+        }
+        .font-family {
+            font-family: Sarasa Mono K SemiBold;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>这是p标签</p>
+    <p>第二个p标签</p>
+    <p>第三个p标签</p>
+    <!-- 一个类选择器可以有多个类名 用空格隔开 -->
+    <div class="red font-size-50px font-family">这个div标签使用了类选择器</div>
+</body>
+</html>
