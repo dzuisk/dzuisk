@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合并单元格</title>
+</head>
+<body>
+    <!-- 表格开始⬇️ -->
+    <table border="1">
+        <!-- 合并单元格要在同标签里进行 -->
+        <!-- 表头⬇️ -->
+        <thead>
+            <tr>
+                <th>名字</th>
+                <th>ENG</th>
+                <th>CHN</th>
+                <th>MAT</th>
+            </tr>
+        </thead>
+        <!-- 内容⬇️ -->
+        <tbody>
+            <tr>
+                <td>DZU</td>
+                <td rowspan="2">130</td>
+                <td>115</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>KOCH</td>
+                <!-- <td>130</td> -->
+                <td>105</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>POLO</td>
+                <td>110</td>
+                <td>95</td>
+                <td>115</td>
+            </tr>
+        </tbody>
+        <!-- 表尾⬇️ -->
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td>语文好点</td>
+                <td colspan="2">数学好点</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- 表格结束 -->
+</body>
+</html>
