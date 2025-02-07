@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- I'm dzu. A colleage student from China🇨🇳.
+- I'm dzu. A colleage student from China.
 - Enable language: Chinese, English, Cantonese, Teochew.
 - Now studying HTML, Python and C.
 - I'll upload what I learn to my reposity.
