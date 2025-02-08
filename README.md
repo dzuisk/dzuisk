@@ -4,15 +4,29 @@
 
 ## Self introduction
 
-- 🌍: Chinese(Major)/English/Teochew/Cantoness(a little)
+- 🌍: Mandarin/English/Teochew/Cantoness(a little)
 - 📖: Studying undergraduate in SZPU.
-- 🎵: Now studying chromatic harmonica
+- 🎵: Enjoying Vocaloid, ACG and J-Pop.
 - 🎮: Play many kinds of games but poor skills.
-- 📷: Take photos at will
+- 📷: Take photos at will.
 - 🌱: Studying programing.
 - ⚡️: Like to create and play!
 
 ## 🌱Studying
+
+### Programing⌨️
+Python HTML C
+
+### Musical instrument🎵
+chromatic harmonica
+
+## Devices
+Vivo X100s / Colorfire R16 / Honor 9
+
+## System
+Android 15 / Windows 11 / Harmony OS 2 / Debian 12
+
+## Contact me
 
 <!--
 **dzuisk/dzuisk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
