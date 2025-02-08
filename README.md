@@ -25,15 +25,14 @@ chromatic harmonica
 
 ## 💻Devices
 ![vivo X100s](https://img.shields.io/badge/vivo%20X100s-415fff?logo=vivo&logoColor=fff)
-/ Colorfire R16 / Honor 9
+![HONOR 9](https://img.shields.io/badge/Honor%209-000000?logo=honor&logoColor=fff)
+![Colorfire R16](https://img.shields.io/badge/Colorfire%20R16-%23ED1C24?logoColor=white)
 
 ## System
 ![Windows11](https://img.shields.io/badge/Windows%2011-0078D6?logo=windows11&logoColor=fff)
 ![Android15](https://img.shields.io/badge/Android%2014-3DDC84?logo=android&logoColor=white)
 ![HarmonyOS2](https://img.shields.io/badge/Harmony%20OS%202-000000?logo=harmonyos&logoColor=fff)
 ![Debian12](https://img.shields.io/badge/Debian%2012-A81D33?logo=debian&logoColor=fff)
-
-Android 15 / Windows 11 / Harmony OS 2 / Debian 12
 
 ## Contact me
 
