@@ -1,10 +1,7 @@
 ## Hi there 👋
 
----
 - I'm dzu. An electronic enthusiast from China.
----
 
----
 Self introduction
 ---
 <!--
