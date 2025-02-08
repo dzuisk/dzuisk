@@ -30,14 +30,15 @@ chromatic harmonica
 
 ## 💿Using system
 ![Windows11](https://custom-icon-badges.demolab.com/badge/Windows%2011-0078D6?logo=windows11&logoColor=white)
-![Android15](https://img.shields.io/badge/Android%2014-3DDC84?logo=android&logoColor=white)
+![Android15](https://img.shields.io/badge/Android%2015-3DDC84?logo=android&logoColor=white)
 ![HarmonyOS2](https://img.shields.io/badge/Harmony%20OS%202-000000?logo=harmonyos&logoColor=fff)
 ![Debian12](https://img.shields.io/badge/Debian%2012-A81D33?logo=debian&logoColor=fff)
 
 ## ☎️Get in touch
-![QQMusic](https://custom-icon-badges.demolab.com/badge/QQMusic-31C27C?logo=qqmusic)
-![Gmail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff)
-![Bilibili](https://img.shields.io/badge/Gmail-00A1D6?logo=bilibili&logoColor=fff)
+[![QQMusic](https://custom-icon-badges.demolab.com/badge/QQMusic-31C27C?logo=qqmusic)](https://y.qq.com/n/ryqq/playlist/3716229321)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff)](mailto:dzu166831@gamil.com)
+[![Bilibili](https://img.shields.io/badge/Gmail-00A1D6?logo=bilibili&logoColor=fff)](https://space.bilibili.com/444969228)
+[![163mail](https://custom-icon-badges.demolab.com/badge/163mail-DB0816?logo=163mail&logoColor=white)](mailto:h1754141938@163.com)
 
 
 <!--
