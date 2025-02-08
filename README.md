@@ -4,6 +4,15 @@
 
 ## Self introduction
 
+- 🌍: Chinese(Major)/English/Teochew/Cantoness(a little)
+- 📖: Studying undergraduate in SZPU.
+- 🎵: Now studying chromatic harmonica
+- 🎮: Play many kinds of games but poor skills.
+- 📷: Take photos at will
+- 🌱: Studying programing.
+- ⚡️: Like to create and play!
+
+## 🌱Studying
 
 <!--
 **dzuisk/dzuisk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
