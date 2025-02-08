@@ -29,7 +29,7 @@ chromatic harmonica
 ![Colorfire R16](https://img.shields.io/badge/Colorfire%20R16-%23ED1C24?logoColor=white)
 
 ## System
-![Windows11](https://img.shields.io/badge/Windows%2011-0078D6?logo=windows11&logoColor=fff)
+![Windows11](https://custom-icon-badges.demolab.com/badge/Windows%2011-0078D6?logo=windows11&logoColor=white)
 ![Android15](https://img.shields.io/badge/Android%2014-3DDC84?logo=android&logoColor=white)
 ![HarmonyOS2](https://img.shields.io/badge/Harmony%20OS%202-000000?logo=harmonyos&logoColor=fff)
 ![Debian12](https://img.shields.io/badge/Debian%2012-A81D33?logo=debian&logoColor=fff)
