@@ -14,13 +14,14 @@
 
 ## 🌱Studying
 
-### Programing⌨️
+### ⌨️Programing
 Python HTML C
 
-### Musical instrument🎵
+### 🎵Musical instrument
 chromatic harmonica
 
-## Devices
+## 💻Devices
+![Static Badge](https://img.shields.io/badge/:badgeContent?style=plastic&logo=vivo&logoColor=%23415FFF)
 Vivo X100s / Colorfire R16 / Honor 9
 
 ## System
