@@ -15,7 +15,10 @@
 ## 🌱Studying
 
 ### ⌨️Programing
-Python HTML C
+![Python](https://img.shields.io/badge/python-3776AB?logo=python&logoColor=fff)
+![HTML](https://img.shields.io/badge/html-E34F26?logo=html5&logoColor=fff)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=fff)
+![CSS](https://img.shields.io/badge/CSS-663399?logo=css&logoColor=fff)
 
 ### 🎵Musical instrument
 chromatic harmonica
