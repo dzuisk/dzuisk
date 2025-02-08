@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体属性</title>
+    <style>
+        div {
+            /* font: 是否倾斜 是否加粗 字号/行高 字体 */
+            /* 使用场景：设置网页公共样式 */
+            font: normal 400 30px/2 Sarasa Mono K SemiBold;
+            /* text-indent 字体缩进 推荐1em = 当前标签的字号大小*/
+            text-indent: 2em;
+        }
+        .align {
+            /* 调节字体对齐方式 */
+            /* center left(默认) right */
+            /* 设置的是文字不是标签 */
+            text-align: center;
+        }
+        .font {
+            font: normal 400 30px/2 Sarasa Mono K SemiBold;
+        }
+        .deepskyblue {
+            color: deepskyblue;
+        }
+        .bg-royalblue {
+            background-color:royalblue ;
+        }
+        .text-decoration {
+            /* 字体修饰 */
+            /* none underline overline line-through */
+            text-decoration:line-through ;
+        }
+        .color-rgb{
+            color: rgb(49,243,243);
+        }
+        .color-rgba {
+            color: rgba(49, 243, 243, 0.5);
+        }
+        .color-hex {
+            color: #FC0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        这是div段落文字这是div段落文字这是div段落文字这是div段落文字
+        这是div段落文字这是div段落文字这是div段落文字这是div段落文字
+        这是div段落文字这是div段落文字这是div段落文字这是div段落文字
+        这是div段落文字这是div段落文字这是div段落文字这是div段落文字
+    </div>
+    <p class="align font deepskyblue bg-royalblue">
+        这是p段落文字这是p段落文字这是p段落文字这是p段落文字这是p段落文字<br>
+        这是p段落文字这是p段落文字这是p段落文字这是p段落文字这是p段落文字<br>
+        这是p段落文字这是p段落文字这是p段落文字这是p段落文字这是p段落文字<br>
+    </p>
+    <p class="align font deepskyblue bg-royalblue text-decoration">
+        🧀雪豹<br>
+    </p>
+    <div class="align">
+        <img src="../祥子.gif" alt="">
+    </div>
+    <p class="color-rgba align font">半透明不知道什么颜色p标签</p>
+    <p style="color: #FC0; font-size:40px;">123</p>
+</body>
+</html>
