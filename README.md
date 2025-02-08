@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 - I'm dzu. An electronic enthusiast from China.
-- ![Yuki](https://github.com/dzuisk/dzuisk/blob/main/Images/yuki.gif "yuki")
+- <img src="https://github.com/dzuisk/dzuisk/blob/main/Images/yuki.gif" alt="Yuki" title="yuki" height="80">
 
 ## Self introduction
 
