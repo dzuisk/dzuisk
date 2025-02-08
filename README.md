@@ -25,7 +25,7 @@ chromatic harmonica
 
 ## 💻Devices
 ![vivo X100s](https://img.shields.io/badge/vivo%20X100s-415fff?logo=vivo&logoColor=fff)
-Vivo X100s / Colorfire R16 / Honor 9
+/ Colorfire R16 / Honor 9
 
 ## System
 Android 15 / Windows 11 / Harmony OS 2 / Debian 12
