@@ -1,10 +1,12 @@
 ## Hi there 👋
 
-- I'm dzu. A colleage student from China.
-- Enable language: Chinese, English, Cantonese, Teochew.
-- Now studying HTML, Python and C.
-- I'll upload what I learn to my reposity.
-- 无限进步
+---
+- I'm dzu. An electronic enthusiast from China.
+---
+
+---
+Self introduction
+---
 <!--
 **dzuisk/dzuisk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
