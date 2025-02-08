@@ -21,7 +21,7 @@ Python HTML C
 chromatic harmonica
 
 ## 💻Devices
-https://img.shields.io/badge/vivo%20X100s-415fff?logo=vivo&logoColor=fff
+![vivo X100s](https://img.shields.io/badge/vivo%20X100s-415fff?logo=vivo&logoColor=fff)
 Vivo X100s / Colorfire R16 / Honor 9
 
 ## System
