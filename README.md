@@ -28,6 +28,10 @@ chromatic harmonica
 / Colorfire R16 / Honor 9
 
 ## System
+![Windows11](https://custom-icon-badges.com/badge/Windows%2011-0078D6?logo=windows11&logoColor=white)
+![Android15](https://img.shields.io/badge/Android%2014-3DDC84?logo=android&logoColor=white)
+![HarmonyOS2](https://img.shields.io/badge/Harmony%20OS%202-000000?logo=harmonyos&logoColor=fff)
+
 Android 15 / Windows 11 / Harmony OS 2 / Debian 12
 
 ## Contact me
