@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圆角</title>
+    <style>
+        div {
+            margin: 50px auto;
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+        }
+        .c1{
+            /* 圆角 */
+            /* 记忆：从左上角开始赋值 没有取值的角与对角取值相同 */
+            /* border-radius: 10px 40px 20px 80px; */ /* 左上开始顺时针 */
+            /* border-radius: 10px 40px 20px; */ /* 左上 右上+左下 右下 */
+            border-radius: 15px 80px; /* 左上+右下 右上+左下 */
+        }
+        .circle{
+            border-radius: 100px;
+        }
+        .long{
+            width: 400px;
+        }
+        .bgi {
+            background-image: url(../图片2.jpg);
+            background-position: center;
+            background-size: contain;;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"></div>
+    <div class="circle"></div>
+    <div class="circle long"></div>
+    <div class="circle bgi"></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外间距合并和塌陷</title>
+    <style>
+        /* 垂直排列兄弟标签 上下margin合并 取最大值生效 */
+        .one {
+            margin-bottom: 50px;
+            height: 100px;
+            width: 100px;
+            background-color: darkred;
+        }
+        .two {
+            margin-top: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: slateblue;
+        }
+        /* 父子级标签 子级加上外边距 会产生塌陷现象 使父级一起向下移动 */
+        /* 解决办法： */
+        /* 取消子级margin 父级设置padding */
+        /* 父级设置overflow:hidden */ /* 常用 */
+        /* 父级设置border-top */
+        .div-son {
+            margin-top: 50px;
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+        .div-father{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">div1</div>
+    <div class="two">div2</div>
+    <br>
+    <div class="div-father">
+        <div class="div-son">子div</div>
+    </div>
+</body>
+</html>

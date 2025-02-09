@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阴影属性</title>
+    <style>
+        div {
+            margin: 50px auto;
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+        }
+        .c1{
+            border-radius: 15px 80px;
+        }
+        .circle{
+            border-radius: 100px;
+        }
+        .bgi {
+            background-image: url(../图片2.jpg);
+            background-position: center;
+            background-size: contain;;
+        }
+        .shadow {
+            /* 阴影 */
+            /* 属性：X轴偏移量 Y轴偏移量 模糊半径 扩散半径 颜色 内外阴影 */
+            /* XY偏移量必写 默认外阴影 内阴影要添加inset */
+            box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="c1 shadow"></div>
+    <div class="circle bgi shadow"></div>
+</body>
+</html>
