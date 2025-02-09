@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS优先级</title>
+    <!-- 选择器选择的范围越大 优先级越低 -->
+    <!-- * < label < class < id < inline < !important -->
+    <style>
+        div {
+            color: cornflowerblue;
+        }
+        p {
+            /* !important提权 */
+            color:yellowgreen !important;
+        }
+        .box{
+            color:blueviolet;
+        }
+        #orange{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="orange" style="color: chocolate;">div class="box" id="orange" style="color: chocolate;"</div>
+    <div class="box" id="orange">div class="box" id="orange"</div>
+    <div class="box">div class="box"</div>
+    <div>div</div>
+
+    <p class="box" id="orange" style="color: chocolate;">p class="box" id="orange" style="color: chocolate;"</p>
+    <p class="box" id="orange">p class="box" id="orange"</p>
+    <p class="box">p class="box"</p>
+    <p>p</p>
+</body>
+</html> 

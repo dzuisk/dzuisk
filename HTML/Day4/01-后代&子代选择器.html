@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后代 子代选择器</title>
+    <style>
+        * {
+            font-family: Sarasa Mono K SemiBold;
+            font-size: 40px;
+        }
+        /* 后代选择器 选择div里的所有span */
+        div span {
+            color: red;
+        }
+        /* 子代选择器 只选择div下方一级的p */
+        div > p {
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <span>这是span标签</span>
+    <div>
+        <span>这是div里的span标签</span>
+        <div>
+            <p>这是div里的p标签</p>
+        </div>
+        <div>
+            <span>
+                <p>这是div里的span的p标签</p>
+            </span>
+        </div>
+        <p>
+            <span>这是div里的p的span标签</span>
+        </p>
+    </div>
+</body>
+</html>

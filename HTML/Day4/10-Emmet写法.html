@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet缩写</title>
+    <!-- CSS标签的简写为首字母 -->
+    <style>
+        div {
+            height: 200px; /* h200 */
+            width: 200px; /* w200 */
+            background-color: #fce; /* bg#fce */
+            text-align: center; /* tac */
+        }
+        p {
+            height: 200px;
+            width: 100px;
+            background-color: #fff;
+            text-align: center;
+            /* h200+w100+bgc+tac */
+        }
+    </style>
+</head>
+<body>
+    <!-- 类选择器 -->
+    <div class="c1">div.c1</div>
+    <!-- id选择器 -->
+    <div id="box1">div#box1</div>
+    <!-- 同级标签 -->
+    <div>div+p</div>
+    <p></p>
+    <!-- 父子级标签 -->
+    <div>
+        <p>div>p</p>
+    </div>
+    <!-- 多个相同标签 -->
+    <span>span*3</span><span></span><span></span>
+    <!-- 有内容的标签 -->
+    <div>内容 div{内容}</div>
+</body>
+</html>

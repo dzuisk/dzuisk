@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+            /* bgi默认平铺 */
+            background-image: url(../祥子.gif);
+            background-color: cornflowerblue;
+        }
+        .c1 {
+            background-repeat:repeat-x;
+        }
+        .c2 {
+            background-repeat: repeat-y;
+        }
+        .c3 {
+            background-repeat: no-repeat;
+        }
+        /* bgp背景位置 */
+        /* xy坐标/英文描述 */
+        /* background-position: 0 0; */
+        /*
+            关键字取值方式写法，可以颠倒取值顺序，
+            可以只写一个关键字，另一个方向默认为居中；
+            数字只写一个值表示水平方向，垂直方向为居中
+        */
+        .c4 {
+            background-position: center;
+        }
+        .c5 {
+            background-position: left;
+        }
+        .c6 {
+            background-position: right;
+        }
+        .c7 {
+            background-position: bottom;
+        }
+        .c8 {
+            background-position: top;
+        }
+        /* bgz背景尺寸 */
+        *{
+            background-size: 200px;
+        }
+        .c9 {
+            background-size: contain; /* 等比缩放完全装入 */
+        }
+        .c10 {
+            background-size: cover; /* 等比缩放完全覆盖 */
+        }
+        .c11 {
+            background-size: 80%;
+        }
+        /* bga 图片不随元素内容滚动 */
+        .c12 {
+            background-attachment: fixed;
+        }
+        body {
+            background-image: url(../Day3/希儿.png);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <br>
+    <div class="c1"></div>
+    <br>
+    <div class="c2"></div>
+    <br>
+    <div class="c3 c4"></div>
+    <br>
+    <div class="c3 c5"></div>
+    <br>
+    <div class="c3 c6"></div>
+    <br>
+    <div class="c3 c7"></div>
+    <br>
+    <div class="c3 c8"></div>
+    <br>
+    <div class="c3 c9"></div>
+    <br>
+    <div class="c3 c4 c11"></div>
+    <br>
+</body>
+</html>
