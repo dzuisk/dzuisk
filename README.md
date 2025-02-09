@@ -37,7 +37,7 @@ chromatic harmonica
 ## ☎️Get in touch
 [![QQMusic](https://custom-icon-badges.demolab.com/badge/QQMusic-31C27C?logo=qqmusic)](https://y.qq.com/n/ryqq/playlist/3716229321)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff)](mailto:dzu166831@gamil.com)
-[![Bilibili](https://img.shields.io/badge/Gmail-00A1D6?logo=bilibili&logoColor=fff)](https://space.bilibili.com/444969228)
+[![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=fff)](https://space.bilibili.com/444969228)
 [![163mail](https://custom-icon-badges.demolab.com/badge/163mail-DB0816?logo=163mail&logoColor=white)](mailto:h1754141938@163.com)
 
 <img src="https://github.com/dzuisk/dzuisk/blob/main/Images/yuki.gif" alt="Yuki" title="yuki" height="150">
