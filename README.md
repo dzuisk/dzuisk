@@ -28,7 +28,7 @@ chromatic harmonica
 ![HONOR 9](https://img.shields.io/badge/Honor%209-000000?logo=honor&logoColor=fff)
 ![Colorfire R16](https://img.shields.io/badge/Colorfire%20R16-%23ED1C24?logoColor=white)
 
-## 💿Using system
+## 💿Using systems
 ![Windows11](https://custom-icon-badges.demolab.com/badge/Windows%2011-0078D6?logo=windows11&logoColor=white)
 ![Android15](https://img.shields.io/badge/Android%2015-3DDC84?logo=android&logoColor=white)
 ![HarmonyOS2](https://img.shields.io/badge/Harmony%20OS%202-000000?logo=harmonyos&logoColor=fff)
