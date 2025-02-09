@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示模式</title>
+    <style>
+        /* display切换显示模式 */
+        /* block inline-block inline  */
+        div {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .div1 {
+            background-color: greenyellow;
+        }
+        .div2 {
+            background-color: chartreuse;
+        }
+        img {
+            display: block;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!-- block 块元素 可加宽高 一行一个 -->
+    <div class="div1">div 标签1</div>
+    <div class="div2">div 标签2</div>
+
+    <!-- inline 行内元素 一行多个 加宽高不生效 -->
+    <span>span</span>
+    <span>span</span>
+
+    <!-- inline-block 行内块 一行共存多个 可加宽高 -->
+    <img src="../希儿.png" alt="">    
+</body>
+</html>
