@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动大小标签</title>
+    <style>
+        * {
+            text-decoration: none;
+            box-sizing: border-box;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .bg-box{
+            margin: 50px auto;
+            width: 1226px;
+            height: 628px;
+            background-color: pink;
+        }
+        .left-box {
+            margin: auto;          
+            width: 234px;
+            height: 628px;
+            background-color: aqua;
+            float: left;
+        }
+        .right-box{           
+            margin: auto;
+            width: 978px;
+            height: 628px;
+            background-color: orange;
+            float: right;
+        }
+        .right-small-box {
+            margin: 0 14px 14px 0;
+            float: left;
+            width: 234px;
+            height: 307px;
+            background-color: aquamarine;
+        }
+        li:nth-child(4n) {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-box">
+        <div class="left-box"></div>
+        <div class="right-box">
+            <ul>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+                <li class="right-small-box"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

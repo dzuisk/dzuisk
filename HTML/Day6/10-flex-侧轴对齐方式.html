@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-items</title>
+    <style>
+        /* 弹性容器 */
+        .box {
+            display: flex;
+            justify-content: space-evenly;
+
+            /* 侧轴对齐方式 */
+            /* 弹性盒子在侧轴没有尺寸才能拉伸 */
+            /* stretch(默认 拉伸) center flex-start flex-end */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+
+            height: 300px;
+            border : 1px solid #000;
+        }
+        /* 弹性盒子 沿主轴方向排列 */
+        .box div{
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+        /* 第二个div侧轴居中对齐 */
+        .box div:nth-child(2) {
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>

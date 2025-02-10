@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+    <style>
+        /* 弹性容器 */
+        .box {
+            display: flex;
+            /* justify-content 主轴对齐方式 */
+            /* flex-start(默认) flex-end center space-between space-around space-evently */
+            /* justify-content: space-between; */
+
+            /* 终点排列 */
+            /* justify-content: flex-end; */
+
+            /* 中心排列 */
+            /* justify-content: center; */
+
+            /* 父级剩余尺寸分配为间距 */
+            /* 弹性盒子之间距离相等 */
+            /* justify-content: space-between; */
+
+            /* 弹性盒子两侧间距相等 */
+            /* justify-content: space-around; */
+
+            /* 弹性盒子和容器之间距离相等（所有间距相同） */
+            justify-content: space-evenly;
+
+            height: 300px;
+            border : 1px solid #000;
+        }
+        /* 弹性盒子 沿主轴方向排列 */
+        .box div{
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
