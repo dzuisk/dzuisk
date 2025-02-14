@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例-产品展示</title>
+    <style>
+        .box {
+            position: relative;
+            width: 600px;
+            height: 300px;
+        }
+
+        .box img {
+            width: 600px;
+        }
+
+        .box .title {
+            position: absolute;
+            left: 20px;
+            bottom: -25px;
+            z-index: 2;
+            width: 260px;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 700;
+            opacity: 0;
+        }
+
+        .box .mask {
+            position: absolute;
+            left: 0;
+            top: 38px;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-image: linear-gradient(
+                transparent,
+                rgba(0,0,0,0.5)
+            );
+            opacity: 0;
+            transition: all 0.5s;
+        }
+
+        .box:hover .mask,
+        .box:hover .title {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="../希儿.png" alt="">
+        <div class="title">你好<br>这不是你的老婆</div>
+        <div class="mask"></div>
+    </div>
+</body>
+</html>

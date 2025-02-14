@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .father {
+            display: flex;
+            margin: 100px auto;
+            width: 1422px;
+            height: 800px;
+            background-size: contain;
+            background-image: url(../希儿.png);
+            display: flex;
+            overflow: hidden;
+        }
+        .father .left,
+        .father .right {
+            background-size: cover;
+            width: 50%;
+            height: 800px;
+            background-image: url(../希儿.png);
+            transition: all .5s;
+        }
+
+        .father .right{
+            background-position: right;
+        }
+
+        .father:hover .left{
+            transform: translate(-100%);
+        }
+
+        .father:hover .right{
+            transform: translateX(100%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
