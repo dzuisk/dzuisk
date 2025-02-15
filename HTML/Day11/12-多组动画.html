@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 140px;
+            width: 140px;
+            background-image: url(./images/bg.png);
+
+            animation:
+                run 1s steps(12) infinite,
+                move 3s forwards;
+        }
+
+        @keyframes run{
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: -1680px;
+            }
+        }
+
+        @keyframes move {
+            /* 动画开始状态和默认状态相同时 开始动画可省略 */
+            /* 0% {
+                transform: translateX(0);
+            } */
+            100% {
+                transform: translateX(800px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

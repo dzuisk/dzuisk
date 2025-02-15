@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>立体呈现</title>
+    <style>
+        .cube {
+            position: relative;;
+            width: 300px;
+            height: 300px;
+            margin: 150px auto;
+            transition: all 2s;
+            transform-style: preserve-3d;
+        }
+
+        .cube div {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 300px;
+            height: 300px;
+        }
+
+        .front {
+            transform: translateZ(150px);
+            background-color: yellowgreen;
+        }
+
+        .back {
+            transform: translateZ(-150px);
+            background-color: cyan;
+        }
+
+        .left {
+            transform: rotateY(90deg) translatez(-150px);
+            background-color: orange;
+        }
+
+        .right{
+            transform: rotateY(90deg) translatez(150px);
+            background-color: chocolate;
+        }
+
+        .bottom {
+            transform: rotateX(90deg) translatez(-150px);
+            background-color: blueviolet;
+        }
+
+        .top {
+            transform: rotateX(90deg) translatez(150px);
+            background-color: cornflowerblue;
+        }
+
+        .cube:hover {
+            transform: rotateY(250deg) rotateX(60deg) ;
+        }        
+    </style>
+</head>
+<body>
+    <div class="cube">
+        <div class="front">前面</div>
+        <div class="back">后面</div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="bottom"></div>
+        <div class="top"></div>
+    </div>
+</body>
+</html>

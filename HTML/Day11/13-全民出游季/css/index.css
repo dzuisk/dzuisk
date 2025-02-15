@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 大背景 */
+/* 默认状态html和Body的高度是0 */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(../images/f1_1.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.cloud img {
+    position: absolute;
+    left: 50%;
+}
+
+.cloud img:nth-child(1) {
+    margin-left: -250px;
+    top: 20px;
+    animation: cloud 1s infinite alternate linear;
+}
+
+.cloud img:nth-child(2) {
+    margin-left: 450px;
+    top: 100px;
+    animation: cloud 1s infinite alternate linear 0.6s;
+}
+
+.cloud img:nth-child(3) {
+    margin-left: -550px;
+    top: 200px;
+    animation: cloud 1s infinite alternate linear 0.3s;
+}
+
+@keyframes cloud {
+    100% {
+        transform: translate(20px);;
+    }
+}
+
+/* 其他元素 */
+.other img {
+    position: absolute;
+}
+
+.other img:nth-child(1) {
+    top: 200px;
+    left: 400px;
+}
+
+.other img:nth-child(2) {
+    top: 150px;
+    right: 450px;
+}
+
+.other img:nth-child(3) {
+    bottom: 50px;
+    left: 400px;
+    animation: other 1s infinite alternate;
+}
+
+.other img:nth-child(4) {
+    bottom: 50px;
+    left: 620px;
+    animation: other 1s infinite alternate;
+}
+
+.other img:nth-child(5) {
+    bottom: 50px;
+    left: 840px;
+    animation: other 1s infinite alternate;
+}
+
+.other img:nth-child(6) {
+    bottom: 50px;
+    left: 1060px;
+    animation: other 1s infinite alternate;
+}
+
+@keyframes other {
+    25% {
+        transform: translateY(30px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    75% {
+        transform: translateY(30px);
+    }
+}
+
+.text img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: text 1s;
+}
+
+@keyframes text {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    20% {
+        transform: translate(-50%, -50%) scale(10%);
+    }
+    40% {
+        transform: translate(-50%, -50%) scale(140%);
+    }
+    70% {
+        transform: translate(-50%, -50%) scale(80%);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
