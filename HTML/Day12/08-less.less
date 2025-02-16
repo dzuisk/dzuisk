@@ -1,0 +1,55 @@
+// out: ./css/导出测试.css
+// ⬆️导出测试 放第一行
+// 禁止导出见"导入测试.less"
+
+.father {
+    color: red;
+    width: (68/37.5rem);
+    .son {
+        height: (29/37.5rem);
+    }
+}
+
+// 单行注释 无法生成到css
+/* 多行注释 */
+
+// less计算
+
+.box {
+    width: 100 + 20px;
+    width: 100 - 80px;
+    width: 100 * 2px;
+    width: (100 / 2px);
+    // width: 29 ./ 37.5rem;
+
+    // 如果有多个单位 即以第一个单位为准
+    height: (29px / 37.5rem);
+}
+
+// less嵌套
+
+.father1 {
+    color: cyan;
+    .son1 {
+        width: 700px;
+        a {
+            color: greenyellow;
+            // &表示当前所属大括号的选择器 不会生成后代选择器
+            // 应用：配合hover伪类或nth-child结构伪类使用
+            &:hover {
+                color: cornflowerblue;
+            }
+        }
+    }
+}
+
+// less变量
+// @变量名 : 变量值;
+// 使用时可用 @变量名
+@width : 100px;
+.box2 {
+    width: @width;
+}
+
+// less导入
+@import "./导入测试.less";
