@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>栅格系统</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- 
+    视口宽度大于等于1200px，一行排4个盒子
+    视口宽度大于等于768px，一行排2个盒子 
+    视口宽度大于等于576px，一行排1个盒子
+   -->
+  <!-- 版心 -> row -> 子级 -->
+  <!-- 栅格系统 网页等分为12分 -->
+  <!-- 6个响应区间 -->
+  <!-- xs < 576 ; sm >= 576 ; md >= 768 ; lg >= 992 ; xl >= 1200 ; xxl >= 1400 -->
+  <!-- .col       .col-sm-    .col-md-    .col-lg-    .col-xl-     .col - xxl- -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-sm-12">1</div>
+      <div class="col-xl-3 col-md-6 col-sm-12">2</div>
+      <div class="col-xl-3 col-md-6 col-sm-12">3</div>
+      <div class="col-xl-3 col-md-6 col-sm-12">4</div>
+    </div>
+  </div>
+</body>
+</html>
