@@ -10,7 +10,7 @@
 - 🎮: Play many kinds of games but poor skills.
 - 📷: Take photos at will.
 - 🌱: Studying programing.
-- ⚡️: Like to create and play!
+- ⚡️: Passionate creation, infinite progress.
 
 ## 🌱Studying
 
