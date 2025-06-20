@@ -4,7 +4,7 @@
 
 ## Organization
 
-- ![Computer Society of SZPU](https://github.com/ComputerSocietySZPU)
+- [![Computer Society of SZPU](https://github.com/dzuisk/dzuisk/blob/main/Images/logo%20table%20JPG2.jpg)](https://github.com/ComputerSocietySZPU)
 
 ## Self introduction
 
