@@ -2,9 +2,10 @@
 
 - I'm dzu. An electronic enthusiast from China.
 
-## Organization
+## Joined Organization
 
 <img src="https://github.com/dzuisk/dzuisk/blob/main/Images/logo%20table%20JPG2.jpg" alt="Computer Society of SZPU" width="200" height="200">
+Computer Society of Shenzhen Polytechnic University
 
 ## Self introduction
 
