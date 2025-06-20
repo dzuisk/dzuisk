@@ -2,6 +2,10 @@
 
 - I'm dzu. An electronic enthusiast from China.
 
+## Organization
+
+- ![Computer Society of SZPU](https://github.com/ComputerSocietySZPU)
+
 ## Self introduction
 
 - 🌍: Mandarin/English/Teochew/Cantoness(a little)
