@@ -4,7 +4,7 @@
 
 ## Organization
 
-- <img src="https://github.com/dzuisk/dzuisk/blob/main/Images/logo%20table%20JPG2.jpg" alt="Computer Society of SZPU" width="200" height="200">
+<img src="https://github.com/dzuisk/dzuisk/blob/main/Images/logo%20table%20JPG2.jpg" alt="Computer Society of SZPU" width="200" height="200">
 
 ## Self introduction
 
