@@ -6,7 +6,7 @@
 
 [<img src="https://github.com/dzuisk/dzuisk/blob/main/Images/logo%20table%20JPG2.jpg" alt="Computer Society of SZPU" width="200" height="200">](https://github.com/ComputerSocietySZPU)
 
-[Computer Society of Shenzhen Polytechnic University / 深圳职业技术大学计算机学会](https://github.com/ComputerSocietySZPU)
+[Computer Society of Shenzhen Polytechnic University](https://github.com/ComputerSocietySZPU)
 
 ## Self introduction
 
