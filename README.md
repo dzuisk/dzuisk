@@ -1,3 +1,5 @@
+## [中文版本 / Chinese version](https://github.com/dzuisk/dzuisk/blob/main/README_zh-CN.md)
+
 ## Hi there 👋
 
 - I'm dzu. An electronic enthusiast from China.
