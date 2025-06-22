@@ -14,7 +14,7 @@
 
 - 🌍: Mandarin/English/Teochew/Cantoness(a little)
 - 📖: Studying undergraduate in SZPU.
-- 💻: Member of Computer Society of SZPU.
+- 💻: Member of Computer Society of SZPU (chairman).
 - 🎵: Enjoying Vocaloid, ACG and J-Pop.
 - 🎮: Play many kinds of games but poor skills.
 - 📷: Take photos at will.
