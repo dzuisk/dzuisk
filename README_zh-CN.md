@@ -1,3 +1,5 @@
+## [English version / 英文版本](https://github.com/dzuisk/dzuisk/blob/main/README.md)
+
 ## 嘿，朋友！ 👋
 
 - 我是dzu，来自中国的电子科技爱好者。
